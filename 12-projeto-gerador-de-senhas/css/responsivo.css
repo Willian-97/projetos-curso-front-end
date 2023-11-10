@@ -1,0 +1,17 @@
+@media (max-width: 425px) {
+    #register-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    #register-banner, #register-form {
+        width: 100%;
+    }
+    #banner-layer h1{
+        font-size: 1.8rem;
+    }
+
+    #generated-password h4 {
+       word-wrap: break-word;
+    }
+}

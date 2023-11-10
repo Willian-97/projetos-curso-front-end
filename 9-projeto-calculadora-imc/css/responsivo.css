@@ -1,0 +1,29 @@
+@media(max-width: 320px) {
+    body{
+        overflow: hidden;
+        margin: auto;
+    }
+    #imc-form input, #imc-form label {
+        width: 50%;
+        margin: 5px auto;
+    }
+
+    .action-control {
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+
+}
+
+@media(max-width: 375px) {
+    body{
+        overflow: hidden;
+        margin: auto;
+    }
+    #result-container {
+        margin: auto;
+        width: 80%;
+    }
+}
+
